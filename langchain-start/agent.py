@@ -1,5 +1,4 @@
 from langchain_openai import ChatOpenAI
-OPENAI_API_KEY=""
 from langchain_community.document_loaders import PyPDFLoader
 loader = PyPDFLoader("./apug data/MATH136-notes.pdf")
 docs = loader.load()

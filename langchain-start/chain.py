@@ -1,6 +1,5 @@
 from langchain_openai import ChatOpenAI
 
-OPENAI_API_KEY=""
 
 #GENERATE NORMAL OUTPUT
 llm = ChatOpenAI(api_key=OPENAI_API_KEY)

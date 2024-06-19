@@ -29,7 +29,7 @@ print(content)
 
 section = 'Chapter 1'
 course = 'MATH136'
-client = OpenAI(api_key="")
+client = OpenAI()
 sub_query = '''You are provided with the {} from the {} textbook for university of waterloo. 
 I want you to provide a concise summary for it that includes the following details:Content for Summaries
 1. Introduction to Key Concepts
