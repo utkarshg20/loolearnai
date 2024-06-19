@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 
 
 #GENERATE NORMAL OUTPUT
-llm = ChatOpenAI(api_key=OPENAI_API_KEY)
+llm = ChatOpenAI()
 print(llm.invoke("how can langsmith help with testing?"))
 print(llm.invoke("what is the difference between user and human in langchain chat prompt template"))
 
