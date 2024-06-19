@@ -14,7 +14,7 @@ import fitz
 import re
 
 #ADD ENCODING TO AVOID PREVIOUS ISSUE
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="=")
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 

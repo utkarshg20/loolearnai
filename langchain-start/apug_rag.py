@@ -7,7 +7,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
-OPENAI_API_KEY="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"
+OPENAI_API_KEY=""
 
 # Question
 question = "What is the cross product of vector [4 5 6] and [1 2 3]?"

@@ -13,7 +13,7 @@ from textblob import TextBlob
 import fitz
 import re
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 

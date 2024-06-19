@@ -17,8 +17,8 @@ from langchain.agents import create_openai_functions_agent, AgentExecutor
 from langchain_core.messages import BaseMessage
 
 # API keys
-OPENAI_API_KEY="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"
-TAVILY_API_KEY = "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"
+OPENAI_API_KEY=""
+TAVILY_API_KEY = ""
 
 # 1. Load documents and prepare the retriever
 loader = PyPDFLoader("C:\\Users\\Utki\\Desktop\\code\\project\\apug data\\MATH136-notes.pdf")

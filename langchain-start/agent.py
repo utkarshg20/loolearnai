@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-OPENAI_API_KEY="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"
+OPENAI_API_KEY=""
 from langchain_community.document_loaders import PyPDFLoader
 loader = PyPDFLoader("./apug data/MATH136-notes.pdf")
 docs = loader.load()
@@ -28,7 +28,7 @@ retriever_tool = create_retriever_tool(
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain.python import PythonREPL
 #PERFORMS WEB SEARCH FOR QUERY (CONNECT LLM TO THE WEB)
-TAVILY_API_KEY = "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"
+TAVILY_API_KEY = ""
 search = TavilySearchResults(tavily_api_key=TAVILY_API_KEY)
 tools = [retriever_tool, search]
 

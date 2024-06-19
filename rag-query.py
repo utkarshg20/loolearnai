@@ -2,7 +2,7 @@ from transformers import RagTokenizer, RagTokenForGeneration
 from openai import OpenAI
 import fitz
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 pdf_path = r'C:\\Users\\Utki\\Desktop\\code\\project\\apug data\\MATH136-notes.pdf'
 doc = fitz.open(pdf_path)
