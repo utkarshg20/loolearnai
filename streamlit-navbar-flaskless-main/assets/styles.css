@@ -1,0 +1,168 @@
+.navbar{
+    font-family: 'Trebuchet MS', sans-serif;
+    position: fixed;
+    width: 100%;
+    background: #1B0840;
+    z-index: 99999999999999999999;
+    left: 0rem;
+    top: 0rem;
+    height: 80px;
+}
+
+.navitem{
+    float: right;
+    display: block;
+    color: #f2f2f2 !important;
+    text-align: center;
+    padding: 30px 20px;
+    margin-right: 4vw;
+    text-decoration: none !important;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.navitem:hover{
+    background-color: #1B0840;
+    height: 55px !important;
+}
+
+
+.mainnavitem{
+    float: left;
+    display: block;
+    color: #f2f2f2 !important;
+    text-align: center;
+    padding: 0vw 10vw;
+    text-decoration: none !important;
+    margin-top: 20px;
+    border-bottom: 30px solid transparent;
+    font-size: 35px;
+    font-family: 'Breul Grotesk A', sans-serif;
+    font-weight: bold;
+}
+
+
+.mainnavitem:hover{
+    background-color: #1B0840;
+    height: 55px !important;
+}
+
+
+.settings{
+    height:1rem;
+}
+
+.version-span{
+    color: white;
+    position: absolute;
+    right: 1rem;
+    bottom: 1.75rem;
+    opacity: 0.5;
+    z-index: 9999;
+    border: 2px solid #1B0840;
+    border-radius: 25px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background: #1B0840;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    height: 55px;
+    opacity: 0.5;
+    filter: invert(1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    opacity:1;
+}
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    right: 0rem;
+    top: 0rem;
+}
+
+.dropdown-content {
+    visibility: hidden;
+    position: fixed;
+    border-radius: 9px;
+    background-color: #1B0840;
+    min-width: 160px;
+    overflow: auto;
+    right:0.3rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn:hover{
+    background-color: rgba(221, 221, 221, 0.233);
+    background: rgba(221, 221, 221, 0.233);
+}
+
+.dropdown a:hover {background-color: rgba(221, 221, 221, 0.233);}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows buttons to wrap in small screens */
+}
+
+.custom-home-btn {
+    border: 2px solid #1B0840;
+    color: black; /* Text color */
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex; /* Use inline-flex to keep buttons inline and center */
+    font-size: 16px;
+    margin: 4px; /* Adjust as needed for spacing between buttons */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.custom-home-btn:hover {
+    background-color: #1B0840;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Eloquia Text';
+    src: url('EloquiaText-SemiBold.woff2') format('woff2'),
+         url('EloquiaText-SemiBold.woff') format('woff');
+    font-weight: 600; /* 600 is typically used for semi-bold */
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Breul Grotesk A';
+    src: url('fonts/BreulGroteskA-Bold.woff2') format('woff2'),
+         url('fonts/BreulGroteskA-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+iframe{
+    height: 0rem;
+}
